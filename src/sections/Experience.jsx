@@ -31,7 +31,16 @@ const Experience = () => {
           <div className="work-content">
             <div className="sm:py-10 py-5 sm:px-5 px-2.5">
               {workExperiences.map(
-                ({ id, icon, name, pos, duration, title, animation }) => (
+                ({
+                  id,
+                  icon,
+                  name,
+                  pos,
+                  duration,
+                  title,
+                  animation,
+                  technology,
+                }) => (
                   <div
                     key={id}
                     className="work-content_container group"
@@ -55,6 +64,9 @@ const Experience = () => {
                       </p>
                       <p className="group-hover:text-white transition ease-in-out duration-500">
                         {title}
+                      </p>
+                      <p className="group-hover:text-white transition ease-in-out duration-500 font-semibold mt-3">
+                        Technology: {technology}
                       </p>
                     </div>
                   </div>

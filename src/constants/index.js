@@ -21,41 +21,6 @@ export const navLinks = [
   },
 ];
 
-export const clientReviews = [
-  {
-    id: 1,
-    name: "Emily Johnson",
-    position: "Marketing Director at GreenLeaf",
-    img: "assets/review1.png",
-    review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-  },
-  {
-    id: 2,
-    name: "Mark Rogers",
-    position: "Founder of TechGear Shop",
-    img: "assets/review2.png",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
-  },
-  {
-    id: 3,
-    name: "John Dohsas",
-    position: "Project Manager at UrbanTech ",
-    img: "assets/review3.png",
-    review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-  },
-  {
-    id: 4,
-    name: "Ether Smith",
-    position: "CEO of BrightStar Enterprises",
-    img: "assets/review4.png",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
-  },
-];
-
 export const myLife = [
   {
     title: "Coffee Enthusiast",
@@ -176,8 +141,11 @@ export const workExperiences = [
     pos: "Software Engineer",
     duration: "Jan 2023 - Nov 2024",
     title:
-      "Full Stack Developer - Engineered scalable APIs for Finexus' proprietary E-Wallet leveraging the Java Ecosystem. " +
-      "Crafted user-friendly front-end interfaces with React, integrating GraphQL middleware for optimized data handling.",
+      "Software Engineer - Engineered scalable APIs powering FINEXUS's proprietary E-Wallet, Merchant & Agent Portal. " +
+      "Lead integrator of DuitNow Services such as QR Payments, Request To Pay, Online Banking, Auto Debit, Instant Transfer." +
+      "Integrated eKYC solutions (Electronic Know Your Customer) to enhance the onboarding process. ",
+    technology:
+      "Java, Oracle, React, SenchaJS, Bash, GraphQL, ActiveMQ, BitBucket",
     icon: "/assets/finexus.png",
     animation: "victory",
   },
@@ -187,8 +155,10 @@ export const workExperiences = [
     pos: "Software Engineer (Intern)",
     duration: "Sept 2022 - Dec 2022",
     title:
-      "Full Stack Developer (Intern) - Developed an internal project management and ticketing system with Laravel & Vue. " +
-      "Optimize Webpack to enhance performance and reduce bundle size. Led the migration from Vue2 to Vue3 to leverage Composition API for better scalability and maintainability.",
+      "Software Engineer (Intern) - Developed and maintained an internal project management and ticketing system. " +
+      "Optimized application performance up to 17% according to Google Lighthouse metrics. " +
+      "Led the migration from Vue2 to Vue3 to leverage Composition API for better scalability. ",
+    technology: "Vue, Laravel, MariaDB, Docker, GitLab",
     icon: "/assets/b2be.png",
     animation: "clapping",
   },
